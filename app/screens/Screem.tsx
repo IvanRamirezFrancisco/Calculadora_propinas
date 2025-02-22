@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
-import TipHistory from '../components/TipHistory';  // Corrección de importación
-import TipInput from '../components/TipInput';  // Corrección de importación
+import TipHistory from '../components/TipHistory';  
+import TipInput from '../components/TipInput';  
 
 export default function Screem() {
   const [billAmount, setBillAmount] = useState('');
